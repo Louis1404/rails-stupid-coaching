@@ -1,0 +1,61 @@
+body {
+  font-family: 'roboto';
+  color: #444444;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  justify-content: center;
+  border: none;
+}
+
+.flexflux {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ask-card{
+  border-left: solid #eaeaea;
+  border-width: 4px;
+  height: 70px;
+  margin: 10px 10px;
+  padding: 5px 5px;
+  text-align: left;
+}
+
+.answer{
+    background-color: #fff8dd;
+}
+
+.form-inline {
+  margin-top: 40px;
+}
+
+.btn-primary {
+ background-color: #484a75;
+ border: none;
+ margin-left: 10px;
+ &:hover {
+  background-color: #9093cc;
+ }
+}
+
+.link {
+  color: #484a75;
+  &:hover{
+    text-decoration: none;
+    color: #9093cc;
+  }
+}
+
+
+
+

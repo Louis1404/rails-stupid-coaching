@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="flexflux">
+    <h1>Stupid Coaching</h1>
+    <div class="ask-card">
+      <%= params[:question] %>
+      <p>- You</p>
+    </div>
+    <div class="ask-card answer">
+      <%= @answer %>
+      <p>- Your coach</p>
+    </div>
+    <%= link_to "Ask a new question", "ask", class: "link" %>
+ </div>
+</div>
